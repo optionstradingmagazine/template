@@ -1,264 +1,1395 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Medical LLC</title>
-    <link rel="icon" type="png" href="https://www.practicebuzz.com/wp-content/uploads/2020/02/holding_prize.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VolRadar Complete Reference Guide 2026: Every Term, Metric and Concept Explained</title>
+  <meta name="description" content="The definitive annotated reference guide to VolRadar in 2026 — every concept explained from Weather Score and VRP to the Market Stress Monitor, CC Score, DTE Optimizer, and ORATS data. Built for premium sellers who want to understand the platform at depth."/>
+  <meta name="keywords" content="VolRadar reference guide 2026, Weather Score definition explained, VRP volatility risk premium options, Market Stress Monitor options, IV Rank vs VRP difference, covered call CC score formula, DTE optimizer VolRadar, ORATS institutional options data retail, theta gang analytics platform, premium selling volatility edge"/>
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
+  <meta name="author" content="Alpha Signal Lab"/>
+  <link rel="canonical" href="https://alphasignallab.io/volradar-complete-reference-guide-2026"/>
+    
+  <link rel="icon" href="https://images.icon-icons.com/2182/PNG/512/signal_connection_wireless_wifi_icon_133484.png">
 
-</head>
-<style type="text/css">
+  <meta property="og:type" content="article"/>
+  <meta property="og:title" content="VolRadar Complete Reference Guide 2026: Every Concept Explained"/>
+  <meta property="og:description" content="An annotated deep-reference guide to every VolRadar concept — Weather Score, VRP breadth, IV Rank, Market Stress Monitor, CC Score, earnings gating, DTE Optimizer and more."/>
+  <meta property="og:url" content="https://alphasignallab.io/volradar-complete-reference-guide-2026"/>
+  <meta property="og:image" content="https://volradar.com/opengraph-image?be0e7ec9ee1952f0"/>
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="Alpha Signal Lab"/>
+  <meta property="article:published_time" content="2026-05-22T14:00:00Z"/>
+  <meta property="article:modified_time" content="2026-05-22T16:00:00Z"/>
+  <meta property="article:section" content="Options Analytics Reference"/>
+  <meta property="article:tag" content="VolRadar, Weather Score, VRP, premium selling, ORATS, Market Stress, covered calls, options analytics"/>
+
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="VolRadar 2026 Reference Guide: Every Concept Fully Explained"/>
+  <meta name="twitter:description" content="Weather Score, VRP breadth, Market Stress Monitor, CC Score, earnings gates — every VolRadar concept explained with precision. The reference guide premium sellers keep open."/>
+  <meta name="twitter:image" content="https://volradar.com/opengraph-image?be0e7ec9ee1952f0"/>
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"VolRadar Complete Reference Guide 2026: Every Term, Metric and Concept Explained","description":"The definitive annotated reference guide to VolRadar — covering the Weather Score formula, VRP breadth signal, Market Stress Monitor mechanism, Covered Call Score factors, DTE Optimizer, ORATS data sourcing, and the full free tool suite.","image":"https://volradar.com/opengraph-image?be0e7ec9ee1952f0","datePublished":"2026-05-22T14:00:00Z","dateModified":"2026-05-22T16:00:00Z","author":{"@type":"Organization","name":"Alpha Signal Lab"},"publisher":{"@type":"Organization","name":"Alpha Signal Lab","logo":{"@type":"ImageObject","url":"https://alphasignallab.io/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://alphasignallab.io/volradar-complete-reference-guide-2026"},"keywords":"VolRadar, Weather Score, VRP, premium selling, theta gang, ORATS, Market Stress, covered calls, options scanner 2026"}</script>
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is VolRadar's Weather Score formula?","acceptedAnswer":{"@type":"Answer","text":"The Weather Score = (Premium Edge × 0.30) + (VIX Regime × 0.25) + (Volatility Trend × 0.20) + (Earnings Safety × 0.15) + (Term Structure × 0.10). Each sub-score is independently normalized to 0–100. The composite scores 65+ as Favorable, 40–64 as Selective, and below 40 as Defensive. It is recomputed from ORATS and CBOE end-of-day data every market close."}},{"@type":"Question","name":"What is VRP and how is it different from IV Rank?","acceptedAnswer":{"@type":"Answer","text":"VRP (Volatility Risk Premium) = 30-day Implied Volatility − 20-day Historical Realized Volatility. A positive VRP means options are priced richer than recent actual stock movement justifies — the seller's structural edge. IV Rank measures where current IV sits within its own 52-week range (percentile). VRP is more actionable because a stock can have high IV Rank but negative VRP if realized volatility has risen to match implied, making the premium apparently rich but structurally unjustified."}},{"@type":"Question","name":"What is the VolRadar Market Stress Monitor?","acceptedAnswer":{"@type":"Answer","text":"The Market Stress Monitor tracks option skew on a fixed 5-name mega-cap basket (AAPL, MSFT, NVDA, GOOG, AMZN) against the basket's rolling 504-session 90th percentile. When basket skew crosses this threshold, the monitor enters Stress regime with a 5-day active window. Research across 88 stress episodes since 2007 shows a 2.18x lift in probability of a 2%+ SPY decline within 5 sessions versus the 14.1% base rate."}},{"@type":"Question","name":"How does VolRadar's Covered Call Score work?","acceptedAnswer":{"@type":"Answer","text":"The CC Score is a 7-factor composite: Income Potential (25%), Safety Buffer (20%), Options Liquidity (15%), Underlying Quality (15%), Earnings Proximity (10%), IV Edge (10%), Execution Quality (5%). Each factor is scored 0–100 and combined into a composite. Scores above 75 represent strong covered call candidates. The screener applies this to 500+ S&P 500 stocks daily and is available on the free tier."}},{"@type":"Question","name":"How much does VolRadar cost in 2026?","acceptedAnswer":{"@type":"Answer","text":"VolRadar offers a free tier with no credit card requirement that includes the Weather Score, top 5 candidates, AI Market Brief, 1 ticker report/day, Covered Call Screener, all calculators, and Market Stress Monitor. The Starter plan is $15/month or $150/year and adds the full 500+ ticker scanner, computed strategy strikes, automatic earnings gates, daily watchlist email, historical VRP data, and DTE Optimizer across all tickers."}}]}</script>
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"VolRadar","url":"https://volradar.com","applicationCategory":"FinanceApplication","operatingSystem":"Web","description":"Daily options analytics platform for premium sellers — Weather Score, VRP scanner, CC screener, Market Stress monitor, strategy builder. ORATS institutional data, 500+ S&P 500 tickers, EOD refresh.","offers":[{"@type":"Offer","price":"0","priceCurrency":"USD","name":"Free"},{"@type":"Offer","price":"15","priceCurrency":"USD","billingPeriod":"P1M","name":"Starter"}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.8","bestRating":"5","worstRating":"1","ratingCount":"429"}}</script>
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://alphasignallab.io/"},{"@type":"ListItem","position":2,"name":"Options Analytics Guides","item":"https://alphasignallab.io/guides/"},{"@type":"ListItem","position":3,"name":"VolRadar Reference Guide 2026","item":"https://alphasignallab.io/volradar-complete-reference-guide-2026"}]}</script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+
+  <style>
+    :root {
+      --void:    #050810;
+      --mid:     #080d1a;
+      --panel:   #0c1220;
+      --panel2:  #101828;
+      --panel3:  #16213a;
+      --border:  #1e2d4a;
+      --border2: #263859;
+      --gold:    #f0c040;
+      --gold2:   #fad060;
+      --gold3:   #c89c20;
+      --ice:     #e8f0ff;
+      --ice2:    #b8c8e8;
+      --ice3:    #7090c0;
+      --dim:     #405080;
+      --dim2:    #304060;
+      --red:     #ff4060;
+      --green2:  #30d080;
+
+      --display: 'Bebas Neue', 'Impact', sans-serif;
+      --body:    'Libre Baskerville', Georgia, serif;
+      --mono:    'IBM Plex Mono', 'Courier New', monospace;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
     body {
-        background: #F5F5F5;
-    }
-</style>
-
-<style>
-    .background-radial-gradient {
-
-        background-image: linear-gradient(rgba(0, 0, 0, 0.6), #F5F5F5), url("https://img.freepik.com/free-photo/flat-lay-health-still-life-arrangement-with-copy-space_23-2148854064.jpg?w=2000");
-
-        width: 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
+      background: var(--void);
+      color: var(--ice2);
+      font-family: var(--body);
+      font-size: 16px;
+      line-height: 1.82;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
     }
 
-    #radius-shape-1 {
-        height: 220px;
-        width: 220px;
-        top: -60px;
-        left: -130px;
-        background: radial-gradient(#FFE55C, #D1B000);
-        overflow: hidden;
+    /* Star-field background */
+    body::before {
+      content: '';
+      position: fixed; inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 15% 20%, rgba(240,192,64,.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 40% 70%, rgba(184,200,232,.25) 0%, transparent 100%),
+        radial-gradient(1px 1px at 75% 30%, rgba(240,192,64,.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 85% 80%, rgba(184,200,232,.2) 0%, transparent 100%),
+        radial-gradient(2px 2px at 55% 15%, rgba(240,192,64,.2) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 85%, rgba(184,200,232,.15) 0%, transparent 100%);
+      pointer-events: none; z-index: 0;
     }
 
-    #radius-shape-2 {
-        border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
-        bottom: -60px;
-        right: -70px;
-        width: 300px;
-        height: 300px;
-        background: radial-gradient(#FFE55C, #D1B000);
-        overflow: hidden;
+    /* Progress bar */
+    #rp { position: fixed; top: 0; left: 0; height: 2px; width: 0%; background: var(--gold); z-index: 9999; box-shadow: 0 0 8px var(--gold); }
+
+    /* Back top */
+    #bt {
+      position: fixed; bottom: 28px; right: 28px;
+      width: 44px; height: 44px;
+      background: var(--panel3); border: 1px solid var(--gold);
+      color: var(--gold); font-family: var(--display);
+      font-size: 1.4rem; letter-spacing: .05em;
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer; opacity: 0;
+      transition: opacity .3s, transform .2s, box-shadow .2s;
+      z-index: 90;
+    }
+    #bt.on { opacity: 1; }
+    #bt:hover { transform: translateY(-3px); box-shadow: 0 0 16px rgba(240,192,64,.4); }
+
+    /* ===== TOPBAR ===== */
+    .topbar {
+      background: var(--mid);
+      border-bottom: 1px solid var(--border);
+      position: sticky; top: 0; z-index: 100;
+      padding: 0 24px;
+    }
+    .tb-inner {
+      max-width: 1240px; margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 52px;
+    }
+    .tb-brand {
+      font-family: var(--display);
+      font-size: 1.4rem; letter-spacing: .06em;
+      color: var(--gold); text-decoration: none;
+    }
+    .tb-brand span { color: var(--ice3); }
+    .tb-nav { display: flex; height: 100%; }
+    .tb-nav a {
+      color: var(--dim); font-family: var(--mono);
+      font-size: .65rem; font-weight: 500;
+      letter-spacing: .12em; text-transform: uppercase;
+      padding: 0 14px; display: flex; align-items: center;
+      border-left: 1px solid var(--border);
+      text-decoration: none; transition: color .2s, background .2s;
+    }
+    .tb-nav a:hover { color: var(--gold); background: rgba(240,192,64,.05); }
+    .tb-nav a.go {
+      background: var(--gold); color: var(--void);
+      font-weight: 600; border-left-color: var(--gold);
+    }
+    .tb-nav a.go:hover { background: var(--gold2); }
+
+    /* ===== TICKER TAPE ===== */
+    .ticker {
+      background: var(--panel);
+      border-bottom: 1px solid var(--border);
+      overflow: hidden; white-space: nowrap;
+      padding: 5px 0;
+    }
+    .ticker-inner {
+      display: inline-block;
+      animation: ticker 40s linear infinite;
+      font-family: var(--mono); font-size: .68rem;
+      color: var(--dim);
+    }
+    @keyframes ticker { from{transform:translateX(0)} to{transform:translateX(-50%)} }
+    .ticker-inner .pos { color: var(--gold); margin: 0 4px; }
+    .ticker-inner .label { color: var(--ice3); font-weight: 600; margin-right: 4px; }
+
+    /* ===== HERO ===== */
+    .hero {
+      background: var(--mid);
+      border-bottom: 1px solid var(--border);
+      padding: 0 24px;
+      position: relative; overflow: hidden;
+      z-index: 1;
+    }
+    /* Radial glow */
+    .hero::before {
+      content: '';
+      position: absolute; top: -100px; left: 50%;
+      transform: translateX(-50%);
+      width: 800px; height: 400px;
+      background: radial-gradient(ellipse, rgba(240,192,64,.06) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    /* Grid overlay */
+    .hero::after {
+      content: '';
+      position: absolute; inset: 0;
+      background-image:
+        linear-gradient(var(--border) 1px, transparent 1px),
+        linear-gradient(90deg, var(--border) 1px, transparent 1px);
+      background-size: 80px 80px;
+      opacity: .3; pointer-events: none;
+    }
+    .hero-inner {
+      max-width: 1240px; margin: 0 auto;
+      padding: 64px 0 52px;
+      display: grid; grid-template-columns: 1fr 300px;
+      gap: 56px; align-items: start;
+      position: relative; z-index: 1;
+    }
+    @media (max-width: 860px) {
+      .hero-inner { grid-template-columns: 1fr; padding: 48px 0; }
+      .hero-panel { display: none; }
+    }
+    .hero-eyebrow {
+      font-family: var(--mono); font-size: .62rem; font-weight: 600;
+      letter-spacing: .2em; text-transform: uppercase;
+      color: var(--gold3); margin-bottom: 16px;
+      display: flex; align-items: center; gap: 10px;
+    }
+    .hero-eyebrow::before { content: '▶'; font-size: .5rem; }
+    .hero h1 {
+      font-family: var(--display);
+      font-size: clamp(3rem, 7vw, 6.5rem);
+      letter-spacing: .04em; line-height: .92;
+      color: var(--ice); margin-bottom: 24px;
+    }
+    .hero h1 .g { color: var(--gold); }
+    .hero h1 .d { color: var(--dim); font-size: .55em; display: block; letter-spacing: .08em; }
+    .hero-sub {
+      font-size: .95rem; color: var(--ice3);
+      line-height: 1.75; max-width: 520px; margin-bottom: 28px;
+    }
+    .hero-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 24px; }
+    .htag {
+      font-family: var(--mono); font-size: .62rem; font-weight: 500;
+      letter-spacing: .1em; text-transform: uppercase;
+      border: 1px solid var(--border2); color: var(--ice3);
+      padding: 3px 12px;
+    }
+    .htag.g { border-color: rgba(240,192,64,.3); color: var(--gold3); }
+    .hero-meta {
+      font-family: var(--mono); font-size: .65rem;
+      color: var(--dim); display: flex; flex-wrap: wrap;
+      gap: 6px 20px; letter-spacing: .06em;
+    }
+    /* Hero panel */
+    .hero-panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-top: 2px solid var(--gold);
+      padding: 0; overflow: hidden;
+    }
+    .hp-head {
+      background: var(--panel2);
+      border-bottom: 1px solid var(--border);
+      padding: 10px 16px;
+      font-family: var(--mono); font-size: .6rem;
+      letter-spacing: .16em; text-transform: uppercase; color: var(--gold3);
+    }
+    .hp-score {
+      padding: 20px 16px 14px;
+      border-bottom: 1px solid var(--border);
+    }
+    .hp-score-num {
+      font-family: var(--display);
+      font-size: 5rem; letter-spacing: -.01em;
+      color: var(--gold); line-height: 1;
+      display: block; margin-bottom: 4px;
+    }
+    .hp-stars { color: var(--gold3); font-size: .9rem; letter-spacing: 3px; display: block; margin-bottom: 3px; }
+    .hp-count { font-family: var(--mono); font-size: .6rem; color: var(--dim); }
+    .hp-row {
+      display: flex; justify-content: space-between;
+      padding: 7px 16px; border-bottom: 1px solid var(--border);
+      font-family: var(--mono); font-size: .68rem;
+    }
+    .hp-row:last-of-type { border-bottom: none; }
+    .hk { color: var(--dim); letter-spacing: .06em; }
+    .hv { color: var(--ice2); font-weight: 600; }
+    .hp-btn {
+      display: block; margin: 12px 16px 16px;
+      padding: 10px; text-align: center;
+      background: var(--gold); color: var(--void);
+      font-family: var(--display); font-size: 1rem;
+      letter-spacing: .1em; text-decoration: none;
+      transition: background .2s;
+    }
+    .hp-btn:hover { background: var(--gold2); }
+
+    /* ===== NAV BAR ===== */
+    .navrow {
+      background: var(--panel);
+      border-bottom: 1px solid var(--border);
+      padding: 8px 24px; overflow-x: auto;
+    }
+    .navrow-inner {
+      max-width: 1240px; margin: 0 auto;
+      display: flex; align-items: center; gap: 0;
+    }
+    .nr-label {
+      font-family: var(--mono); font-size: .6rem;
+      letter-spacing: .18em; text-transform: uppercase;
+      color: var(--gold3); padding-right: 14px;
+      border-right: 1px solid var(--border2); margin-right: 12px;
+      white-space: nowrap;
+    }
+    .navrow a {
+      font-family: var(--mono); font-size: .62rem; font-weight: 500;
+      letter-spacing: .1em; text-transform: uppercase;
+      color: var(--dim); text-decoration: none;
+      padding: 4px 14px; border-right: 1px solid var(--border);
+      white-space: nowrap; transition: color .2s;
+    }
+    .navrow a:hover { color: var(--gold); }
+
+    /* ===== LAYOUT ===== */
+    .outer {
+      max-width: 1240px; margin: 0 auto;
+      padding: 0 24px;
+      display: grid; grid-template-columns: 1fr 260px;
+      gap: 40px; align-items: start;
+      position: relative; z-index: 1;
+    }
+    @media (max-width: 980px) {
+      .outer { grid-template-columns: 1fr; }
+      .side-col { display: none; }
     }
 
-    .bg-glass {
-        background-color: hsla(0, 0%, 100%, 0.6) !important;
-        backdrop-filter: saturate(200%) blur(70px);
+    /* ===== ARTICLE ===== */
+    .article { padding: 48px 0 80px; }
+
+    /* Stat band */
+    .stat-band {
+      display: grid; grid-template-columns: repeat(4,1fr);
+      border: 1px solid var(--border); margin-bottom: 48px;
+      background: var(--panel);
+    }
+    @media (max-width: 540px) { .stat-band { grid-template-columns: repeat(2,1fr); } }
+    .sb-cell {
+      padding: 18px 14px; text-align: center;
+      border-right: 1px solid var(--border);
+    }
+    .sb-cell:last-child { border-right: none; }
+    .sb-n {
+      font-family: var(--display);
+      font-size: 2rem; letter-spacing: .04em;
+      color: var(--gold); display: block;
+      line-height: 1; margin-bottom: 5px;
+    }
+    .sb-n.ice { color: var(--ice); }
+    .sb-d {
+      font-family: var(--mono); font-size: .6rem;
+      letter-spacing: .08em; text-transform: uppercase;
+      color: var(--dim); line-height: 1.4;
     }
 
-    .form-group>label {
-        bottom: 34px;
-        left: 15px;
-        position: relative;
-
-        background-color: white;
-        padding: 0px 5px 0px 5px;
-        font-size: 1.1em;
-        transition: 0.2s;
-        pointer-events: none;
+    /* Entry heading */
+    .entry-head {
+      display: flex; align-items: flex-start; gap: 16px;
+      margin: 56px 0 20px; padding-top: 20px;
+      border-top: 1px solid var(--border);
     }
-
-    .form-control:focus~label {
-        bottom: 55px;
-        font-size: 1rem;
-        border-radius: 10px 10px 0px 0px;
+    .entry-num {
+      font-family: var(--display);
+      font-size: 4.5rem; letter-spacing: .04em;
+      color: var(--border2); line-height: .9;
+      flex-shrink: 0; min-width: 72px; text-align: right;
     }
-
-
-    .form-control:valid~label {
-        bottom: 55px;
+    .entry-label-block { padding-top: 6px; }
+    .entry-cat {
+      font-family: var(--mono); font-size: .6rem; font-weight: 600;
+      letter-spacing: .2em; text-transform: uppercase;
+      color: var(--gold3); margin-bottom: 4px;
     }
-
-    .ayush:hover {
-        filter: saturate(150%);
+    .entry-title {
+      font-family: var(--display);
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      letter-spacing: .04em; line-height: 1;
+      color: var(--ice);
     }
-</style>
+    .entry-title .g { color: var(--gold); }
 
+    .article h3 {
+      font-family: var(--display);
+      font-size: 1.4rem; letter-spacing: .06em;
+      color: var(--gold2); margin: 36px 0 12px;
+    }
+    .article h4 {
+      font-family: var(--mono); font-size: .62rem;
+      font-weight: 600; letter-spacing: .2em; text-transform: uppercase;
+      color: var(--gold3); margin: 26px 0 10px;
+    }
+    .article p { color: var(--ice2); font-size: .94rem; line-height: 1.85; margin-bottom: 16px; }
+    .article a { color: var(--gold); text-decoration: none; border-bottom: 1px solid rgba(240,192,64,.3); transition: border-color .2s; }
+    .article a:hover { border-bottom-color: var(--gold); }
+    .article strong { color: var(--ice); }
+    .article ul, .article ol { margin: 12px 0 20px; }
+    .article li {
+      padding: 7px 0 7px 20px;
+      border-bottom: 1px solid var(--border);
+      font-size: .91rem; color: var(--ice2);
+      list-style: none; position: relative;
+    }
+    .article li::before { content: '›'; color: var(--gold3); position: absolute; left: 0; font-size: 1rem; top: 6px; }
+    .article ol { counter-reset: oc; }
+    .article ol li { counter-increment: oc; }
+    .article ol li::before { content: counter(oc,decimal-leading-zero); font-family: var(--mono); font-size: .68rem; color: var(--gold3); top: 10px; }
+    code { font-family: var(--mono); font-size: .8rem; background: var(--panel); border: 1px solid var(--border2); padding: 2px 8px; color: var(--gold2); }
+
+    /* ===== DEFINITION BOX ===== */
+    .def-box {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--gold);
+      padding: 18px 20px; margin: 22px 0;
+    }
+    .def-box.ice { border-left-color: var(--ice3); }
+    .def-box.red { border-left-color: var(--red); }
+    .def-box.green { border-left-color: var(--green2); }
+    .def-label {
+      font-family: var(--mono); font-size: .6rem; font-weight: 600;
+      letter-spacing: .2em; text-transform: uppercase;
+      color: var(--gold3); margin-bottom: 8px;
+    }
+    .def-box.ice .def-label { color: var(--ice3); }
+    .def-box.red .def-label { color: var(--red); }
+    .def-box.green .def-label { color: var(--green2); }
+    .def-box p { margin: 0; font-size: .88rem; color: var(--ice2); line-height: 1.72; }
+
+    /* ===== DATA TABLE ===== */
+    .dtbl { width: 100%; border-collapse: collapse; margin: 22px 0; font-size: .83rem; }
+    .dtbl thead th {
+      background: var(--panel2); color: var(--gold3);
+      font-family: var(--mono); font-size: .6rem;
+      font-weight: 600; letter-spacing: .14em; text-transform: uppercase;
+      padding: 10px 14px; text-align: left;
+      border-bottom: 1px solid var(--gold3);
+    }
+    .dtbl tbody td {
+      padding: 10px 14px; border-bottom: 1px solid var(--border);
+      color: var(--ice2); background: var(--panel);
+    }
+    .dtbl tbody tr:hover td { background: var(--panel2); }
+    .dtbl .y { color: var(--green2); font-weight: 700; font-family: var(--mono); }
+    .dtbl .n { color: var(--dim); font-family: var(--mono); }
+    .dtbl .g { color: var(--gold); font-weight: 700; }
+    .dtbl .hi td { background: rgba(240,192,64,.04) !important; }
+    .dtbl .hi td:first-child { color: var(--ice); border-left: 2px solid var(--gold); }
+
+    /* ===== FORMULA BLOCK ===== */
+    .formula {
+      background: var(--void);
+      border: 1px solid var(--border2);
+      padding: 20px 24px; margin: 22px 0;
+      font-family: var(--mono); font-size: .88rem;
+      color: var(--gold2); line-height: 1.9;
+      position: relative; overflow: hidden;
+    }
+    .formula::before {
+      content: 'FORMULA';
+      position: absolute; top: 8px; right: 12px;
+      font-size: .55rem; letter-spacing: .18em;
+      color: var(--border2);
+    }
+    .formula .comment { color: var(--dim); }
+    .formula .val { color: var(--gold); }
+    .formula .op { color: var(--ice3); }
+
+    /* ===== RADAR READOUT ===== */
+    .readout {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      margin: 22px 0; overflow: hidden;
+    }
+    .ro-head {
+      background: var(--panel2);
+      border-bottom: 1px solid var(--border);
+      padding: 8px 16px;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .ro-title { font-family: var(--mono); font-size: .6rem; letter-spacing: .16em; text-transform: uppercase; color: var(--gold3); }
+    .ro-status { font-family: var(--mono); font-size: .6rem; letter-spacing: .12em; color: var(--green2); }
+    .ro-rows { padding: 0; }
+    .ro-row {
+      display: grid; grid-template-columns: 180px 1fr 60px;
+      align-items: center; gap: 14px;
+      padding: 11px 16px; border-bottom: 1px solid var(--border);
+    }
+    .ro-row:last-child { border-bottom: none; }
+    .ro-name { font-family: var(--mono); font-size: .72rem; color: var(--ice2); }
+    .ro-wt { font-family: var(--mono); font-size: .58rem; color: var(--dim); margin-top: 2px; }
+    .ro-track { background: var(--panel3); height: 4px; border-radius: 1px; overflow: hidden; }
+    .ro-fill { height: 100%; background: var(--gold); transition: width 1.2s ease; }
+    .ro-fill.ice { background: var(--ice3); }
+    .ro-val { font-family: var(--display); font-size: 1.2rem; letter-spacing: .04em; color: var(--gold); text-align: right; }
+
+    /* ===== FACTOR PANELS ===== */
+    .factor-panels {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 22px 0;
+    }
+    @media (max-width: 540px) { .factor-panels { grid-template-columns: 1fr; } }
+    .fp {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      padding: 16px;
+      transition: border-color .2s;
+    }
+    .fp:hover { border-color: var(--gold3); }
+    .fp-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px; }
+    .fp-name { font-family: var(--display); font-size: 1rem; letter-spacing: .06em; color: var(--ice); }
+    .fp-weight { font-family: var(--display); font-size: 1.5rem; letter-spacing: .04em; color: var(--gold); }
+    .fp-bar { height: 3px; background: var(--panel3); margin-bottom: 10px; overflow: hidden; }
+    .fp-fill { height: 100%; background: linear-gradient(90deg, var(--gold3), var(--gold)); transition: width 1.2s ease; }
+    .fp-text { font-family: var(--body); font-size: .8rem; color: var(--ice3); line-height: 1.6; }
+
+    /* ===== TOOLS GRID ===== */
+    .tools-wrap {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 22px 0;
+    }
+    @media (max-width: 540px) { .tools-wrap { grid-template-columns: 1fr; } }
+    .tool-block {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      padding: 13px 15px;
+      transition: border-color .2s, background .2s;
+    }
+    .tool-block:hover { border-color: var(--gold3); background: var(--panel2); }
+    .tb-num { font-family: var(--display); font-size: 1.6rem; letter-spacing: .04em; color: var(--border2); margin-bottom: 2px; }
+    .tb-name { font-family: var(--mono); font-size: .7rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--gold3); margin-bottom: 6px; }
+    .tb-desc { font-size: .78rem; color: var(--ice3); line-height: 1.55; }
+
+    /* ===== PRICING ===== */
+    .price-duel { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 22px 0; }
+    @media (max-width: 540px) { .price-duel { grid-template-columns: 1fr; } }
+    .pd-box { background: var(--panel); border: 1px solid var(--border); overflow: hidden; }
+    .pd-box.hot { border-color: var(--gold); }
+    .pd-head { background: var(--panel2); border-bottom: 1px solid var(--border); padding: 12px 16px; }
+    .pd-box.hot .pd-head { background: var(--gold); }
+    .pd-tier { font-family: var(--mono); font-size: .58rem; letter-spacing: .18em; text-transform: uppercase; color: var(--dim); margin-bottom: 4px; }
+    .pd-box.hot .pd-tier { color: rgba(5,8,16,.5); }
+    .pd-name { font-family: var(--display); font-size: 1.6rem; letter-spacing: .06em; color: var(--ice); }
+    .pd-box.hot .pd-name { color: var(--void); }
+    .pd-body { padding: 16px; }
+    .pd-price { font-family: var(--display); font-size: 2.5rem; letter-spacing: .04em; color: var(--gold); display: block; margin-bottom: 14px; }
+    .pd-box.hot .pd-price { color: var(--gold3); }
+    .pd-price sub { font-size: .65rem; font-weight: 400; color: var(--dim); font-family: var(--mono); }
+    .pd-feats { list-style: none; }
+    .pd-feats li { padding: 6px 0 6px 16px; border-bottom: 1px solid var(--border); font-size: .8rem; color: var(--ice2); position: relative; font-family: var(--body); }
+    .pd-feats li::before { content: '+'; color: var(--green2); position: absolute; left: 0; font-weight: 700; font-family: var(--mono); }
+    .pd-feats li:last-child { border-bottom: none; }
+    .pd-btn {
+      display: block; margin-top: 14px; padding: 10px; text-align: center;
+      border: 1px solid var(--border2); color: var(--ice2);
+      font-family: var(--display); font-size: 1rem; letter-spacing: .1em;
+      text-decoration: none; transition: background .2s, color .2s, border-color .2s;
+    }
+    .pd-btn:hover { background: var(--gold); color: var(--void); border-color: var(--gold); }
+    .pd-box.hot .pd-btn { background: var(--void); color: var(--gold); border-color: var(--border2); }
+    .pd-box.hot .pd-btn:hover { background: var(--gold); color: var(--void); border-color: var(--gold); }
+
+    /* ===== RATING TABLE ===== */
+    .rtbl { width: 100%; border-collapse: collapse; margin: 22px 0; font-size: .83rem; }
+    .rtbl thead th { font-family: var(--mono); font-size: .6rem; letter-spacing: .14em; text-transform: uppercase; color: var(--gold3); padding: 8px 12px; border-bottom: 1px solid var(--gold3); text-align: left; }
+    .rtbl tbody td { padding: 9px 12px; border-bottom: 1px solid var(--border); color: var(--ice2); }
+    .rtbl tbody tr:last-child td { font-weight: 700; color: var(--ice); border-top: 1px solid var(--gold3); }
+
+    /* ===== TESTI ===== */
+    .testi-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 22px 0; }
+    @media (max-width: 540px) { .testi-grid { grid-template-columns: 1fr; } }
+    .testi-cell {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      padding: 18px;
+      transition: border-color .2s;
+    }
+    .testi-cell:hover { border-color: var(--gold3); }
+    .tc-quote { font-style: italic; font-size: .88rem; color: var(--ice2); line-height: 1.7; margin-bottom: 14px; border-left: 2px solid var(--gold3); padding-left: 12px; }
+    .tc-who { display: flex; align-items: center; gap: 10px; }
+    .tc-init {
+      width: 30px; height: 30px;
+      background: var(--panel3); border: 1px solid var(--border2);
+      font-family: var(--display); font-size: .9rem; letter-spacing: .04em;
+      color: var(--gold3); display: flex; align-items: center; justify-content: center;
+    }
+    .tc-name { font-family: var(--mono); font-size: .68rem; color: var(--ice); font-weight: 600; }
+    .tc-role { font-size: .65rem; color: var(--dim); }
+
+    /* ===== FAQ ===== */
+    .faq-wrap { margin: 22px 0; }
+    .faq-entry { border-bottom: 1px solid var(--border); background: var(--panel); margin-bottom: 4px; }
+    .faq-q { display: flex; justify-content: space-between; align-items: center; padding: 14px 16px; cursor: pointer; gap: 14px; font-family: var(--body); font-size: .92rem; font-weight: 700; color: var(--ice2); user-select: none; transition: color .2s; }
+    .faq-q:hover { color: var(--gold); }
+    .faq-icon { font-family: var(--mono); font-size: .8rem; color: var(--gold3); transition: transform .3s; flex-shrink: 0; }
+    .faq-entry.open .faq-icon { transform: rotate(45deg); color: var(--gold); }
+    .faq-entry.open .faq-q { color: var(--gold); }
+    .faq-a { max-height: 0; overflow: hidden; transition: max-height .45s ease, padding .3s; font-size: .87rem; color: var(--ice2); line-height: 1.78; padding: 0 16px; }
+    .faq-entry.open .faq-a { max-height: 500px; padding: 0 16px 16px; }
+
+    /* ===== CTA ===== */
+    .cta-wrap {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-top: 2px solid var(--gold);
+      padding: 44px 40px; margin: 56px 0 0;
+      position: relative; overflow: hidden;
+    }
+    .cta-wrap::before {
+      content: 'VOLRADAR';
+      position: absolute; right: -10px; bottom: -20px;
+      font-family: var(--display); font-size: 9rem; letter-spacing: .04em;
+      color: rgba(240,192,64,.03); line-height: 1;
+      pointer-events: none;
+    }
+    .cta-tag { font-family: var(--mono); font-size: .6rem; font-weight: 600; letter-spacing: .2em; text-transform: uppercase; color: var(--gold3); display: block; margin-bottom: 12px; }
+    .cta-wrap h3 { font-family: var(--display); font-size: 2.2rem; letter-spacing: .04em; color: var(--ice); line-height: 1.1; margin-bottom: 14px; }
+    .cta-wrap h3 em { font-style: normal; color: var(--gold); }
+    .cta-wrap p { color: var(--ice3); font-size: .9rem; margin-bottom: 26px; max-width: 500px; line-height: 1.7; }
+    .cta-row { display: flex; gap: 12px; flex-wrap: wrap; }
+    .cta-a { padding: 12px 28px; background: var(--gold); color: var(--void); font-family: var(--display); font-size: 1.1rem; letter-spacing: .08em; text-decoration: none; display: inline-block; transition: background .2s; }
+    .cta-a:hover { background: var(--gold2); border-bottom: none; }
+    .cta-b { padding: 12px 24px; border: 1px solid var(--border2); color: var(--ice3); font-family: var(--mono); font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; text-decoration: none; display: inline-block; transition: border-color .2s, color .2s; }
+    .cta-b:hover { border-color: var(--gold3); color: var(--gold); }
+    .cta-fn { font-family: var(--mono); font-size: .6rem; color: var(--dim); margin-top: 14px; letter-spacing: .06em; }
+
+    /* ===== SIDE COLUMN ===== */
+    .side-col { padding-top: 48px; position: sticky; top: 68px; }
+    .sc-card { background: var(--panel); border: 1px solid var(--border); padding: 16px; margin-bottom: 14px; }
+    .sc-card-top { background: var(--panel2); border-bottom: 1px solid var(--border); margin: -16px -16px 14px; padding: 8px 14px; font-family: var(--mono); font-size: .58rem; letter-spacing: .18em; text-transform: uppercase; color: var(--gold3); }
+    .sc-big { font-family: var(--display); font-size: 3.5rem; letter-spacing: .04em; color: var(--gold); line-height: 1; display: block; }
+    .sc-stars { font-size: .88rem; color: var(--gold3); letter-spacing: 3px; display: block; margin: 3px 0 2px; }
+    .sc-count { font-family: var(--mono); font-size: .6rem; color: var(--dim); margin-bottom: 14px; }
+    .sc-btn { display: block; padding: 9px; text-align: center; font-family: var(--display); font-size: 1rem; letter-spacing: .1em; text-decoration: none; margin-bottom: 6px; background: var(--gold); color: var(--void); transition: background .2s; }
+    .sc-btn:hover { background: var(--gold2); border-bottom: none; }
+    .sc-btn.out { background: transparent; color: var(--ice3); border: 1px solid var(--border2); font-size: .68rem; font-family: var(--mono); letter-spacing: .1em; text-transform: uppercase; }
+    .sc-btn.out:hover { border-color: var(--gold3); color: var(--gold3); }
+    .sc-row { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid var(--border); font-family: var(--mono); font-size: .68rem; }
+    .sc-row:last-child { border-bottom: none; }
+    .sk { color: var(--dim); }
+    .sv { color: var(--ice2); font-weight: 600; }
+    .sc-links { list-style: none; }
+    .sc-links li { padding: 6px 0; border-bottom: 1px solid var(--border); font-family: var(--mono); font-size: .68rem; }
+    .sc-links li:last-child { border-bottom: none; }
+    .sc-links a { color: var(--ice3); text-decoration: none; border-bottom: none; }
+    .sc-links a:hover { color: var(--gold); }
+
+    /* ===== FOOTER ===== */
+    footer { background: var(--mid); border-top: 1px solid var(--border); padding: 36px 24px 28px; position: relative; z-index: 1; }
+    .foot-inner { max-width: 1240px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 24px; padding-bottom: 20px; border-bottom: 1px solid var(--border); }
+    .foot-name { font-family: var(--display); font-size: 1.4rem; letter-spacing: .06em; color: var(--gold); margin-bottom: 4px; }
+    .foot-sub { font-family: var(--mono); font-size: .6rem; color: var(--dim); letter-spacing: .06em; }
+    .foot-links { display: flex; flex-wrap: wrap; gap: 8px 18px; }
+    .foot-links a { font-family: var(--mono); font-size: .62rem; color: var(--dim); text-decoration: none; letter-spacing: .06em; border-bottom: none; }
+    .foot-links a:hover { color: var(--gold3); }
+    .foot-disc { max-width: 1240px; margin: 16px auto 0; font-family: var(--mono); font-size: .62rem; color: var(--dim2); line-height: 1.7; letter-spacing: .02em; }
+
+    /* ===== ANIMATIONS ===== */
+    @keyframes fadeUp { from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)} }
+    .hero-eyebrow { animation: fadeUp .5s ease both .0s; }
+    .hero h1      { animation: fadeUp .5s ease both .1s; }
+    .hero-sub     { animation: fadeUp .5s ease both .2s; }
+    .hero-tags    { animation: fadeUp .5s ease both .3s; }
+    .hero-meta    { animation: fadeUp .5s ease both .4s; }
+    .hero-panel   { animation: fadeUp .5s ease both .15s; }
+  </style>
+</head>
 <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" style="filter: opacity(0.95);">
-        <a class="navbar-brand mx-2" href="#">
-            <img src="https://www.practicebuzz.com/wp-content/uploads/2020/02/PB-LogoSmall.png" alt="" style="max-width: 90px;" class="d-inline-block align-text-top">
 
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-2">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
-                </li>
+<div id="rp"></div>
+<button id="bt" aria-label="Back to top">↑</button>
 
-        </div>
+<!-- TOPBAR -->
+<header class="topbar">
+  <div class="tb-inner">
+    <a href="#" class="tb-brand">ALPHA<span>SIGNAL</span>LAB</a>
+    <nav class="tb-nav" aria-label="Main navigation">
+      <a href="#entry-1">Platform</a>
+      <a href="#entry-3">Weather Score</a>
+      <a href="#entry-6">Free Tools</a>
+      <a href="#entry-9">Pricing</a>
+      <a href="https://volradar.com" class="go" target="_blank" rel="noopener">VOLRADAR.COM ↗</a>
     </nav>
+  </div>
+</header>
 
+<!-- TICKER TAPE -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-inner">
+    <span class="label">VOLRADAR</span> WEATHER SCORE <span class="pos">79.6 FAVORABLE</span> &nbsp;◆&nbsp;
+    VRP POSITIVE TICKERS <span class="pos">352/500+</span> &nbsp;◆&nbsp;
+    VIX REGIME <span class="pos">100/100</span> &nbsp;◆&nbsp;
+    EARNINGS SAFETY <span class="pos">80.2/100</span> &nbsp;◆&nbsp;
+    TERM STRUCTURE <span class="pos">CONTANGO 95.6</span> &nbsp;◆&nbsp;
+    STARTER PLAN <span class="pos">$15/MO · $150/YR</span> &nbsp;◆&nbsp;
+    DATA SOURCE <span class="pos">ORATS + CBOE</span> &nbsp;◆&nbsp;
+    FREE TIER <span class="pos">NO CARD · NO EXPIRY</span> &nbsp;◆&nbsp;
+    UNIVERSE <span class="pos">500+ S&P 500</span> &nbsp;◆&nbsp;
+    VALIDATED SESSIONS <span class="pos">1,354</span> &nbsp;◆&nbsp;
+    <span class="label">VOLRADAR</span> WEATHER SCORE <span class="pos">79.6 FAVORABLE</span> &nbsp;◆&nbsp;
+    VRP POSITIVE TICKERS <span class="pos">352/500+</span> &nbsp;◆&nbsp;
+    VIX REGIME <span class="pos">100/100</span> &nbsp;◆&nbsp;
+    EARNINGS SAFETY <span class="pos">80.2/100</span> &nbsp;◆&nbsp;
+    TERM STRUCTURE <span class="pos">CONTANGO 95.6</span> &nbsp;◆&nbsp;
+    STARTER PLAN <span class="pos">$15/MO · $150/YR</span> &nbsp;◆&nbsp;
+  </div>
+</div>
 
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div>
+      <div class="hero-eyebrow">Reference Guide · Options Analytics · 2026 Edition</div>
+      <h1>VOLRADAR<br/><span class="g">COMPLETE</span><br/>REFERENCE<br/><span class="d">Every concept. Every metric. Every signal.</span></h1>
+      <p class="hero-sub">The annotated deep-reference guide to VolRadar's full analytical framework — from the Weather Score formula to the VRP breadth signal, Market Stress Monitor mechanism, CC Score construction, and every free tool in the suite. Written for premium sellers who want mastery, not summaries.</p>
+      <div class="hero-tags">
+        <span class="htag g">✓ ORATS Institutional Data</span>
+        <span class="htag g">✓ Free Tier · No Card</span>
+        <span class="htag">500+ S&P 500 Tickers</span>
+        <span class="htag">5-Factor Weather Score</span>
+        <span class="htag">Published May 22, 2026</span>
+        <span class="htag">~21 min read</span>
+      </div>
+      <div class="hero-meta">
+        <span>ALPHA SIGNAL LAB</span>
+        <span>//</span>
+        <span>MAY 22, 2026</span>
+        <span>//</span>
+        <span>REFERENCE SERIES VOL. VII</span>
+      </div>
+    </div>
+    <div class="hero-panel" aria-label="Quick verdict panel">
+      <div class="hp-head">// PLATFORM VERDICT · ALPHA SIGNAL LAB</div>
+      <div class="hp-score">
+        <span class="hp-score-num">4.8</span>
+        <span class="hp-stars">★★★★★</span>
+        <span class="hp-count">429 VERIFIED · ALPHASIGNALLAB.IO</span>
+      </div>
+      <div class="hp-row"><span class="hk">PLATFORM</span><span class="hv">volradar.com</span></div>
+      <div class="hp-row"><span class="hk">DATA</span><span class="hv">ORATS + CBOE</span></div>
+      <div class="hp-row"><span class="hk">UNIVERSE</span><span class="hv">500+ S&P 500</span></div>
+      <div class="hp-row"><span class="hk">REFRESH</span><span class="hv">EOD · ~6 PM ET</span></div>
+      <div class="hp-row"><span class="hk">FREE TIER</span><span class="hv">YES · NO CARD</span></div>
+      <div class="hp-row"><span class="hk">STARTER</span><span class="hv">$15/MO · $150/YR</span></div>
+      <a href="https://volradar.com" class="hp-btn" target="_blank" rel="noopener">ACCESS VOLRADAR ↗</a>
+    </div>
+  </div>
+</section>
 
-    <section class="mb-10 background-radial-gradient overflow-hidden">
+<!-- NAV ROW -->
+<nav class="navrow" aria-label="Reference sections">
+  <div class="navrow-inner">
+    <span class="nr-label">Ref Index</span>
+    <a href="#entry-1">01 · Platform</a>
+    <a href="#entry-2">02 · Users</a>
+    <a href="#entry-3">03 · Weather Score</a>
+    <a href="#entry-4">04 · Five Factors</a>
+    <a href="#entry-5">05 · VRP Signal</a>
+    <a href="#entry-6">06 · Scanner</a>
+    <a href="#entry-7">07 · Stress Monitor</a>
+    <a href="#entry-8">08 · Free Tools</a>
+    <a href="#entry-9">09 · Pricing</a>
+    <a href="#entry-10">10 · Competitors</a>
+    <a href="#entry-11">11 · Verdict</a>
+    <a href="#faq-sec">12 · FAQ</a>
+  </div>
+</nav>
 
-        <div class="container px-4 py-5 px-md-5 mt-lg-4    text-lg-start">
-            <div class="row gx-lg-5 align-items-center mb-5">
-                <div class="text-center col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
-                    <h1 class="my-5 display-3 fw-bold ls-tight" style="color: hsl(218, 81%, 95%)">
-                        <span>Medical LLC</span> <br> <span class="ayush" style="color: #FFE55C;">Form</span>
-                    </h1>
+<!-- BODY -->
+<div class="outer">
+  <main>
+    <article class="article">
 
-                </div>
-                <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
-                    <div id="radius-shape-1" class="position-absolute rounded-circle shadow-5-strong"></div>
-                    <div id="radius-shape-2" class="position-absolute shadow-5-strong"></div>
-                    <div class="card bg-glass">
-                        <div class="card-body px-4 py-5 px-md-5">
+      <!-- Stats -->
+      <div class="stat-band" aria-label="Platform key metrics">
+        <div class="sb-cell"><span class="sb-n">80.4%</span><span class="sb-d">Favorable Regime Accuracy</span></div>
+        <div class="sb-cell"><span class="sb-n ice">1,354</span><span class="sb-d">Sessions Validated</span></div>
+        <div class="sb-cell"><span class="sb-n">+6.4pp</span><span class="sb-d">Edge vs VIX-Only Timing</span></div>
+        <div class="sb-cell"><span class="sb-n ice">$0</span><span class="sb-d">Free Tier · No Card</span></div>
+      </div>
 
-                            <form action="#done" method="get">
-
-                                <div class="form-group">
-                                    <input type="text" class="form-control " id="usr" required>
-                                    <label class="text-secondary" for="usr">Name</label>
-                                </div>
-                                <div class="form-group">
-                                    <input type="number" class="form-control" id="usr" required>
-                                    <label class="text-secondary" for="usr">Phone Number</label>
-                                </div>
-
-                                <div class="form-group">
-                                    <input type="email" class="form-control" id="usr" required>
-                                    <label class="text-secondary" for="usr">Email</label>
-                                </div>
-
-
-                                <div class="form-group">
-                                    <textarea  rows="2" cols="25" placeholder="This is the default text" class="form-control"></textarea>
-
-                                </div>
-                                <br>
-
-                                <input class="btn " style="width:100%; background: linear-gradient(#FFE55C,#D1B000); " type="submit">
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <!-- ENTRY 1 -->
+      <section id="entry-1">
+        <div class="entry-head">
+          <span class="entry-num">01</span>
+          <div class="entry-label-block">
+            <div class="entry-cat">Platform Overview</div>
+            <h2 class="entry-title"><span class="g">VOLRADAR</span> DEFINED</h2>
+          </div>
         </div>
-    </section>
 
-
-    <!-- Footer -->
-    <footer class="text-center text-lg-start bg-light text-muted">
-        <!-- Section: Social media -->
-        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-            <!-- Left -->
-            <div class="me-5 d-none d-lg-block">
-                <span>Get connected with us on social networks:</span>
-            </div>
-            <!-- Left -->
-
-            <!-- Right -->
-            <div>
-                <a href="" class="btn me-4 text-reset">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="" class="btn me-4 text-reset">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="" class="btn me-4 text-reset">
-                    <i class="fab fa-google"></i>
-                </a>
-                <a href="" class="btn me-4 text-reset">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="" class="btn me-4 text-reset">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-            </div>
-            <!-- Right -->
-        </section>
-        <!-- Section: Social media -->
-
-        <!-- Section: Links  -->
-        <section class="">
-            <div class="container text-center text-md-start mt-5">
-                <!-- Grid row -->
-                <div class="row mt-3">
-                    <!-- Grid column -->
-                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                        <!-- Content -->
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            <img src="https://www.practicebuzz.com/wp-content/uploads/2020/02/PB-LogoSmall.png" style="filter: brightness(0); width: 100px;">
-                        </h6>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.
-                        </p>
-                    </div>
-                    <!-- Grid column -->
-
-
-                    <!-- Grid column -->
-                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                        <!-- Links -->
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            Useful links
-                        </h6>
-                        <p>
-                            <a href="#!" class="text-decoration-none link-secondary">Home</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-decoration-none link-secondary">About</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-decoration-none link-secondary">Contact Us</a>
-                        </p>
-
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                        <!-- Links -->
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            Contact
-                        </h6>
-                        <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
-                        <p>
-                            <i class="fas fa-envelope me-3"></i>
-                            info@example.com
-                        </p>
-                        <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-                        <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
-                    </div>
-                    <!-- Grid column -->
-                </div>
-                <!-- Grid row -->
-            </div>
-        </section>
-        <!-- Section: Links  -->
-
-        <!-- Copyright -->
-        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-            © 2021 Copyright:
-            <a class="text-decoration-none link-secondary fw-bold" href="https://abc.com/">Practice Buzz</a>
+        <div class="def-box">
+          <div class="def-label">// Core Definition</div>
+          <p><strong>VolRadar</strong> is a daily options analytics platform engineered exclusively for options premium sellers. It synthesizes institutional-grade market data — sourced from ORATS and CBOE — into a systematic daily verdict on whether broad market conditions favor selling premium, and if so, which specific tickers offer the strongest edge. The platform covers 500+ S&P 500 stocks, refreshes every market close, and operates on a free-forever tier alongside a Starter plan at $15/month.</p>
         </div>
-        <!-- Copyright -->
-    </footer>
-    <!-- Footer -->
 
+        <p>The conceptual foundation of VolRadar rests on a recognition that most retail premium sellers face a synthesis problem rather than a data problem. The raw ingredients of a rigorous pre-market analysis — VIX level, term structure slope, realized versus implied volatility spreads, earnings calendar density, per-ticker signal quality — are all technically accessible through various public and semi-public sources. The bottleneck is the daily work of weaving those ingredients into a coherent verdict, consistently, before the open, without errors introduced by fatigue, time pressure, or cognitive shortcuts.</p>
 
+        <p>VolRadar resolves this by performing the synthesis centrally, every evening after market close, using the same data infrastructure that professional volatility desks employ. The output is a single composite number — the Weather Score — backed by full transparency into every formula and sub-signal that produces it, and validated against 1,354 historical trading sessions with published results including disclosed limitations.</p>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
-    </script>
+        <p>The platform is operated by SIA FIZVO (Latvia, VAT: LV50103900691), uses Clerk for authentication (SOC 2 Type II) and Paddle for payments (PCI DSS), stores no brokerage credentials, and makes no connection to trading accounts. It is a pure research and analytics tool — execution happens separately in whichever broker the trader uses.</p>
+      </section>
+
+      <!-- ENTRY 2 -->
+      <section id="entry-2">
+        <div class="entry-head">
+          <span class="entry-num">02</span>
+          <div class="entry-label-block">
+            <div class="entry-cat">Target Users</div>
+            <h2 class="entry-title">WHO <span class="g">BENEFITS</span></h2>
+          </div>
+        </div>
+
+        <p>VolRadar's utility is maximized for traders whose profitability depends on the volatility risk premium — the systematic tendency of implied volatility to price future realized movement more expensively than it eventually materializes. This group includes:</p>
+
+        <ul>
+          <li><strong>Theta gang traders</strong> running short strangles, iron condors, and credit spreads at 21–45 DTE across diversified S&P 500 portfolios</li>
+          <li><strong>Wheel strategy practitioners</strong> cycling through cash-secured puts and covered calls seeking systematic monthly income</li>
+          <li><strong>Covered call writers</strong> maintaining stock positions and writing calls against them for yield enhancement</li>
+          <li><strong>Income-focused investors</strong> using short puts and defined-risk structures to generate returns on idle capital</li>
+          <li><strong>Busy professionals</strong> trading part-time who cannot sustain a nightly 45-minute multi-platform research routine</li>
+          <li><strong>Developing traders</strong> building systematic habits and wanting to understand the quantitative basis of their setups</li>
+        </ul>
+
+        <div class="def-box red">
+          <div class="def-label">// Out-of-Scope Users</div>
+          <p>VolRadar does not serve: long directional option buyers, intraday volatility traders requiring real-time data, small-cap or international equity premium sellers, or traders needing direct brokerage integration or order routing. These are design constraints, not deficiencies.</p>
+        </div>
+      </section>
+
+      <!-- ENTRY 3 -->
+      <section id="entry-3">
+        <div class="entry-head">
+          <span class="entry-num">03</span>
+          <div class="entry-label-block">
+            <div class="entry-cat">Core Signal</div>
+            <h2 class="entry-title">THE <span class="g">WEATHER SCORE</span></h2>
+          </div>
+        </div>
+
+        <div class="def-box">
+          <div class="def-label">// Formal Definition</div>
+          <p>The <strong>Weather Score</strong> is a daily composite index (range 0–100) that quantifies how favorable broad S&P 500 market conditions are for systematic options premium selling on a given trading day. It is computed from five independently weighted sub-signals using end-of-day ORATS and CBOE data and is published by 9:25 AM ET the following morning via the AI Market Brief.</p>
+        </div>
+
+        <div class="formula">
+          <span class="comment">// Weather Score Formula</span><br/>
+          Score = <span class="val">(Premium_Edge × 0.30)</span><br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ <span class="val">(VIX_Regime × 0.25)</span><br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ <span class="val">(Volatility_Trend × 0.20)</span><br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ <span class="val">(Earnings_Safety × 0.15)</span><br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ <span class="val">(Term_Structure × 0.10)</span><br/>
+          <br/>
+          <span class="comment">// Each sub-score independently normalized 0–100</span><br/>
+          <span class="comment">// Composite scored against three regime thresholds:</span><br/>
+          &nbsp;&nbsp;FAVORABLE: <span class="val">≥ 65</span> | SELECTIVE: <span class="val">40–64</span> | DEFENSIVE: <span class="val">&lt; 40</span>
+        </div>
+
+        <h3>REGIME THRESHOLDS</h3>
+        <table class="dtbl" aria-label="Weather Score regime reference">
+          <thead>
+            <tr><th>Score</th><th>Regime</th><th>Validated Sessions</th><th>Forward 5-Day VRP Breadth</th><th>Guidance</th></tr>
+          </thead>
+          <tbody>
+            <tr class="hi"><td class="g"><strong>65 – 100</strong></td><td class="g">FAVORABLE</td><td>868 sessions</td><td class="g">80.4% positive</td><td>Trade top candidates, normal size</td></tr>
+            <tr><td>40 – 64</td><td style="color:var(--gold3)">SELECTIVE</td><td>465 sessions</td><td>72.3% positive</td><td>Only highest-edge setups, reduced size</td></tr>
+            <tr><td>Below 40</td><td class="n">DEFENSIVE</td><td>16 sessions</td><td>Below threshold</td><td>Sit out or dramatically reduce exposure</td></tr>
+            <tr><td colspan="2" style="color:var(--dim);font-family:var(--mono);font-size:.65rem">VIX-Only Baseline (VIX &lt; 20)</td><td>866 sessions</td><td>74.0% positive</td><td>Single-factor comparison</td></tr>
+          </tbody>
+        </table>
+
+        <p>The validation methodology compares each session's regime classification to its forward five-day outcome — defined as whether a majority of S&P 500 constituents showed implied vol exceeding realized vol over the following five trading days. The 80.4% Favorable-regime accuracy represents a 6.4 percentage point improvement over the single-factor VIX benchmark. VolRadar also publishes a historical analog matching feature daily: the three or four prior sessions with the closest five-component vector similarity to today, showing how those sessions resolved. This adds a qualitative layer of market memory to the quantitative composite.</p>
+
+        <div class="def-box ice">
+          <div class="def-label">// Survivorship Bias Disclosure</div>
+          <p>VolRadar discloses that its historical validation uses the current S&P 500 membership list rather than strict point-in-time reconstruction. Tickers that were delisted or removed from the index between 2020 and 2026 are absent from the historical analysis. This creates a small upward bias in the validation statistics. A full point-in-time reconstruction is listed as a future audit deliverable.</p>
+        </div>
+      </section>
+
+      <!-- ENTRY 4 -->
+      <section id="entry-4">
+        <div class="entry-head">
+          <span class="entry-num">04</span>
+          <div class="entry-label-block">
+            <div class="entry-cat">Signal Architecture</div>
+            <h2 class="entry-title">THE <span class="g">FIVE FACTORS</span></h2>
+          </div>
+        </div>
+
+        <p>Each of the five Weather Score components captures a distinct and non-redundant dimension of the premium-selling environment. The factor visualizations below show an example reading where the composite scored 74.4 (Favorable).</p>
+
+        <div class="readout" aria-label="Factor bar visualization">
+          <div class="ro-head">
+            <span class="ro-title">// WEATHER SCORE DECOMPOSITION · EXAMPLE 74.4 FAVORABLE</span>
+            <span class="ro-status">● LIVE EOD</span>
+          </div>
+          <div class="ro-rows">
+            <div class="ro-row">
+              <div><div class="ro-name">PREMIUM EDGE</div><div class="ro-wt">VRP Breadth · 30%</div></div>
+              <div class="ro-track"><div class="ro-fill" style="width:55.5%"></div></div>
+              <div class="ro-val">55.5</div>
+            </div>
+            <div class="ro-row">
+              <div><div class="ro-name">VIX REGIME</div><div class="ro-wt">CBOE VIX Level · 25%</div></div>
+              <div class="ro-track"><div class="ro-fill" style="width:100%"></div></div>
+              <div class="ro-val">100</div>
+            </div>
+            <div class="ro-row">
+              <div><div class="ro-name">VOLATILITY TREND</div><div class="ro-wt">RV vs IV Direction · 20%</div></div>
+              <div class="ro-track"><div class="ro-fill ice" style="width:55.5%"></div></div>
+              <div class="ro-val">55.5</div>
+            </div>
+            <div class="ro-row">
+              <div><div class="ro-name">EARNINGS SAFETY</div><div class="ro-wt">Binary Event Density · 15%</div></div>
+              <div class="ro-track"><div class="ro-fill" style="width:80.2%"></div></div>
+              <div class="ro-val">80.2</div>
+            </div>
+            <div class="ro-row">
+              <div><div class="ro-name">TERM STRUCTURE</div><div class="ro-wt">VIX/VIX3M Ratio · 10%</div></div>
+              <div class="ro-track"><div class="ro-fill" style="width:95.6%"></div></div>
+              <div class="ro-val">95.6</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="factor-panels">
+          <div class="fp">
+            <div class="fp-top"><div class="fp-name">PREMIUM EDGE</div><div class="fp-weight">30%</div></div>
+            <div class="fp-bar"><div class="fp-fill" style="width:55.5%"></div></div>
+            <div class="fp-text"><strong>Source:</strong> ORATS per-ticker IV vs HV. <strong>Measure:</strong> Percentage of S&P 500 constituents where 30-day implied vol exceeds 20-day realized vol. <strong>Interpretation:</strong> Wide breadth (above 60%) means the structural edge is available across many names. Narrow breadth (below 40%) means VRP is concentrated and candidate selection must be highly selective.</div>
+          </div>
+          <div class="fp">
+            <div class="fp-top"><div class="fp-name">VIX REGIME</div><div class="fp-weight">25%</div></div>
+            <div class="fp-bar"><div class="fp-fill" style="width:100%"></div></div>
+            <div class="fp-text"><strong>Source:</strong> CBOE VIX daily close. <strong>Measure:</strong> VIX level against 15–25 mean-reversion zone, with a spike penalty when VIX's 5-day percentage change exceeds +3%. <strong>Key feature:</strong> The velocity penalty distinguishes a stable elevated VIX from a rapidly rising VIX — the latter carries continuation risk that the absolute level alone cannot capture.</div>
+          </div>
+          <div class="fp">
+            <div class="fp-top"><div class="fp-name">VOLATILITY TREND</div><div class="fp-weight">20%</div></div>
+            <div class="fp-bar"><div class="fp-fill" style="width:55.5%"></div></div>
+            <div class="fp-text"><strong>Source:</strong> ORATS rv_ratio per ticker. <strong>Measure:</strong> Percentage of S&P 500 stocks where the rv_ratio (20-day RV / 30-day IV) is below 1.0 — meaning RV is running below IV. <strong>Interpretation:</strong> When a majority of names show RV cooling beneath IV, the VRP is supported structurally, not just momentarily elevated by historical IV levels.</div>
+          </div>
+          <div class="fp">
+            <div class="fp-top"><div class="fp-name">EARNINGS SAFETY</div><div class="fp-weight">15%</div></div>
+            <div class="fp-bar"><div class="fp-fill" style="width:80.2%"></div></div>
+            <div class="fp-text"><strong>Source:</strong> ORATS earnings calendar. <strong>Measure:</strong> Inverse of the percentage of S&P 500 reporting within 7 days. <strong>Why it matters:</strong> Binary event premium is not structural VRP. During dense earnings periods, IV Rank and VRP signals across many tickers are contaminated by event-specific premium that disappears immediately post-announcement — often unfavorably for sellers.</div>
+          </div>
+          <div class="fp" style="grid-column:span 2">
+            <div class="fp-top"><div class="fp-name">TERM STRUCTURE</div><div class="fp-weight">10%</div></div>
+            <div class="fp-bar"><div class="fp-fill" style="width:95.6%"></div></div>
+            <div class="fp-text"><strong>Source:</strong> CBOE VIX and VIX3M. <strong>Measure:</strong> VIX/VIX3M ratio. <strong>Contango</strong> (VIX below VIX3M, ratio below 1.0): normal configuration, near-term options relatively calm — supports short near-term premium. <strong>Backwardation</strong> (VIX above VIX3M, ratio above 1.0): acute near-term stress, institutional demand for near-term protection elevated — this factor scores near zero. Today's 95.6 reflects deep contango, a structural tailwind.</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ENTRY 5 -->
+      <section id="entry-5">
+        <div class="entry-head">
+          <span class="entry-num">05</span>
+          <div class="entry-label-block">
+            <div class="entry-cat">Primary Edge Signal</div>
+            <h2 class="entry-title">VRP VS <span class="g">IV RANK</span></h2>
+          </div>
+        </div>
+
+        <div class="def-box">
+          <div class="def-label">// VRP Defined</div>
+          <p><strong>Volatility Risk Premium (VRP)</strong> = 30-Day Implied Volatility − 20-Day Historical Realized Volatility. A positive VRP means options are pricing future movement more expensively than the stock has recently moved. This spread — not IV Rank — is the seller's structural edge. VolRadar's scanner ranks all S&P 500 tickers by this metric daily, requiring a minimum +2pp VRP for a Strong signal classification.</p>
+        </div>
+
+        <h3>THE CRITICAL DISTINCTION</h3>
+        <p>IV Rank places current implied volatility within its 52-week historical range. It is a backward-looking percentile: <code>IV_Rank = (Current_IV − 52w_Low) / (52w_High − 52w_Low) × 100</code>. A score of 75 means implied vol is currently in its 75th percentile relative to the past year — options appear historically expensive.</p>
+
+        <p>The flaw: IV Rank cannot tell you whether that historical expensiveness is justified by current realized vol. A stock with IV Rank at 75 but realized vol that has risen to match implied vol has zero VRP — the premium appears rich but the edge has evaporated. A stock with IV Rank at only 45 but realized vol 12 percentage points below implied may have the strongest VRP edge in the entire index.</p>
+
+        <table class="dtbl" aria-label="VRP vs IV Rank comparison">
+          <thead>
+            <tr><th>Scenario</th><th>30d Implied Vol</th><th>20d Realized Vol</th><th>VRP</th><th>IV Rank</th><th>Signal Quality</th></tr>
+          </thead>
+          <tbody>
+            <tr class="hi"><td>Tech stock — quiet period</td><td>28%</td><td>16%</td><td class="g">+12pp</td><td class="n">45 (moderate)</td><td class="g">STRONG SELL</td></tr>
+            <tr><td>Tech stock — high movement</td><td>42%</td><td>44%</td><td class="n">−2pp</td><td class="g">78 (elevated)</td><td class="n">AVOID</td></tr>
+            <tr><td>Stable blue chip</td><td>22%</td><td>14%</td><td class="g">+8pp</td><td class="n">38 (low)</td><td class="g">GOOD SELL</td></tr>
+            <tr><td>Earnings runup stock</td><td>55%</td><td>51%</td><td class="n">+4pp*</td><td class="g">92 (extreme)</td><td class="n">*EVENT RISK</td></tr>
+          </tbody>
+        </table>
+
+        <p>Row one and row three represent the core VolRadar thesis: strong VRP despite unremarkable IV Rank. Row two represents the classic IV Rank trap: historically elevated implied vol that looks attractive but is actually underpriced relative to current market behavior. The scanner's VRP-first ranking surfaces row one and three; the IV Rank filter alone would prioritize row two and row four.</p>
+
+        <h3>THE COVERED CALL SCORE (CC SCORE)</h3>
+        <p>For covered call positions specifically, VolRadar maintains a parallel seven-factor composite that weights considerations beyond pure VRP:</p>
+        <table class="dtbl" aria-label="CC Score factor weights">
+          <thead><tr><th>Factor</th><th>Weight</th><th>Measures</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Income Potential</strong></td><td class="g">25%</td><td>Annualized premium yield at current strikes and DTE</td></tr>
+            <tr><td><strong>Safety Buffer</strong></td><td class="g">20%</td><td>Distance to first technical support; downside cushion before painful assignment</td></tr>
+            <tr><td>Liquidity</td><td>15%</td><td>Bid-ask spread tightness relative to premium; execution efficiency proxy</td></tr>
+            <tr><td>Underlying Quality</td><td>15%</td><td>Dividend history, market cap stability, analyst consensus, institutional ownership</td></tr>
+            <tr><td>Earnings Proximity</td><td>10%</td><td>Days to next earnings; penalizes names with imminent binary events</td></tr>
+            <tr><td>IV Edge</td><td>10%</td><td>IV Rank position; higher percentile within 52-week range scores better</td></tr>
+            <tr><td>Execution Quality</td><td>5%</td><td>Market-hours open interest depth, typical fill quality indicators</td></tr>
+          </tbody>
+        </table>
+        <p>CC Scores above 75 represent high-conviction covered call candidates. 60–75 is acceptable as secondary. Below 60, the platform's guidance is to wait for better setups rather than forcing marginal positions. The full Covered Call Screener applying this composite to 500+ stocks is available on the free tier.</p>
+      </section>
+
+      <!-- ENTRY 6 -->
+      <section id="entry-6">
+        <div class="entry-head">
+          <span class="entry-num">06</span>
+          <div class="entry-label-block">
+            <div class="entry-cat">Scanner & Strategy Engine</div>
+            <h2 class="entry-title">THE <span class="g">VRP SCANNER</span></h2>
+          </div>
+        </div>
+
+        <p>The VRP Scanner processes all 500+ S&P 500 tickers daily and ranks them by a composite of volatility edge metrics. Each ticker receives a signal tier classification based on four simultaneous gates:</p>
+
+        <ul>
+          <li><strong>STRONG:</strong> VRP ≥ +2pp AND IV Rank ≥ 30 AND earnings &gt; 14 days away AND composite edge score ≥ 60</li>
+          <li><strong>MEDIUM:</strong> VRP between +1pp and +2pp, partially supportive conditions — acceptable with added scrutiny</li>
+          <li><strong>WEAK:</strong> Low VRP or conflicting risk flags — approach with significant caution or skip entirely</li>
+          <li><strong>EARNINGS FLAGGED:</strong> Earnings within 7 days — binary event risk active; Strategy Builder blocks new positions on Starter</li>
+        </ul>
+
+        <p>Free tier users access the top 5 ranked candidates daily. Starter subscribers access the full universe with sorting (by VRP, IV Rank, edge score, signal tier) and filtering (by sector, cap range, earnings distance). The per-ticker report, available for any name, shows VRP trend over 30 days, IV Rank position, historical volatility comparison, skew analysis, earnings calendar, and gamma wall levels.</p>
+
+        <h3>THE ADAPTIVE STRATEGY BUILDER</h3>
+        <p>The Strategy Builder selects the optimal structure from seven strategies based on per-ticker conditions — not a fixed default:</p>
+        <ol>
+          <li><strong>Cash-Secured Put / Short Put:</strong> High bilateral VRP, neutral-to-bullish underlying</li>
+          <li><strong>Iron Condor:</strong> High bilateral VRP, flat skew, elevated overall IV Rank</li>
+          <li><strong>Short Strangle:</strong> Extremely high bilateral VRP, low correlation regime</li>
+          <li><strong>Put Credit Spread:</strong> High put-skew environment, defined risk preferred</li>
+          <li><strong>Call Credit Spread:</strong> Elevated call premium, upside momentum slowing</li>
+          <li><strong>Covered Call:</strong> Strong CC Score, existing or planned long stock position</li>
+          <li><strong>Iron Butterfly:</strong> Near-ATM peak IV, very high VRP concentrated at current strike</li>
+        </ol>
+
+        <p>Starter output includes computed strikes, DTE target from the per-ticker DTE Optimizer, estimated credit, breakeven prices, and maximum loss — a complete executable specification.</p>
+
+        <div class="def-box green">
+          <div class="def-label">// DTE Optimizer Defined</div>
+          <p>The <strong>DTE Optimizer</strong> uses per-ticker historical IV and realized vol data to identify which expiration window has historically offered the highest premium-to-risk ratio for that specific underlying. Rather than defaulting to a universal 45-DTE rule, it identifies ticker-level patterns — some names produce richer near-term options due to earnings clustering, while others favor longer expirations. Available as a free standalone tool; integrated into the Strategy Builder on Starter.</p>
+        </div>
+      </section>
+
+      <!-- ENTRY 7 -->
+      <section id="entry-7">
+        <div class="entry-head">
+          <span class="entry-num">07</span>
+          <div class="entry-label-block">
+            <div class="entry-cat">Macro Risk Indicator</div>
+            <h2 class="entry-title">MARKET <span class="g">STRESS MONITOR</span></h2>
+          </div>
+        </div>
+
+        <div class="def-box">
+          <div class="def-label">// Formal Definition</div>
+          <p>The <strong>Market Stress Monitor</strong> is an independent macro tail-risk indicator that tracks option skew on a permanently locked five-name mega-cap basket (AAPL, MSFT, NVDA, GOOG, AMZN) against the basket's rolling 504-session 90th percentile. It operates independently from the Weather Score, measures a different risk dimension through a different mechanism, and can diverge from the Weather Score reading.</p>
+        </div>
+
+        <h3>MECHANISM</h3>
+        <p>The monitor uses the ORATS skewing metric — a measure of put-to-call skew — for each of the five basket names. The mean skewing metric across all five is computed daily and compared to the rolling 504-session (approximately two-year) 90th percentile for the basket. When the mean crosses this threshold upward, the monitor activates the Stress regime and opens a five-day active risk window.</p>
+
+        <h3>SEVERITY LADDER — FOUR LEVELS</h3>
+        <table class="dtbl" aria-label="Market Stress severity levels">
+          <thead><tr><th>Level</th><th>Condition</th><th>Action Implication</th></tr></thead>
+          <tbody>
+            <tr><td class="g"><strong>NORMAL</strong></td><td>Basket skew within historical range</td><td>No special action required; standard risk management</td></tr>
+            <tr><td style="color:var(--gold3)"><strong>ELEVATED</strong></td><td>Skew rising but not crossed threshold</td><td>Begin favoring defined-risk structures over undefined; monitor closely</td></tr>
+            <tr><td class="n"><strong>STRESS</strong></td><td>Threshold crossed; 5-day window active</td><td>Shift fully to defined-risk; reduce new position size 40–50%</td></tr>
+            <tr><td class="n" style="opacity:.7"><strong>STRESS EXTENDED</strong></td><td>Window elapsed without normalization</td><td>Maintain defensive posture; episode not resolved</td></tr>
+          </tbody>
+        </table>
+        <p style="font-size:.78rem;color:var(--dim);font-family:var(--mono);padding:6px 0">// COOLING state displayed when skew descends from top decile but has not yet returned to historical baseline</p>
+
+        <h3>VALIDATION EVIDENCE</h3>
+        <p>Research window: 2007–2026. Stress episodes identified: 88. Historical lift: during active Stress windows, SPY declined ≥ 2% within the following five trading sessions in approximately <strong>30.7%</strong> of cases. Unconditional base rate for ≥ 2% five-day SPY decline: 14.1%. Lift factor: <strong>2.18×</strong>. Statistical significance: p &lt; 0.001.</p>
+
+        <p>The five-name mega-cap basket was selected deliberately: AAPL, MSFT, NVDA, GOOG, and AMZN represent the most liquid, most index-representative S&P 500 constituents. Institutional protective option buying on this basket is one of the earliest observable signals of systemic risk concern in public derivatives markets — institutional hedgers establish positions in the most liquid names before broader market fear measures respond.</p>
+      </section>
+
+      <!-- TESTI -->
+      <h3>FIELD VALIDATION — TRADER ACCOUNTS</h3>
+      <div class="testi-grid" aria-label="User testimonials">
+        <div class="testi-cell">
+          <p class="tc-quote">What makes the Market Stress Monitor valuable isn't the signal itself — it's having a second, independent indicator that operates on a completely different mechanism. When both the Weather Score and the Monitor agree, I have real conviction. When they diverge, I reduce size and prefer spreads. That decision framework alone improved my risk-adjusted returns.</p>
+          <div class="tc-who"><div class="tc-init">SP</div><div><div class="tc-name">SIMONE P.</div><div class="tc-role">Systematic strangle trader · 6 years</div></div></div>
+        </div>
+        <div class="testi-cell">
+          <p class="tc-quote">The DTE Optimizer changed my approach fundamentally. I had treated 45 DTE as a universal rule. The optimizer showed me that for several names I trade regularly, 21–30 DTE has historically produced better premium-to-risk ratios. That's a structural change to my entry logic, not just a platform feature.</p>
+          <div class="tc-who"><div class="tc-init">CB</div><div><div class="tc-name">CARLOS B.</div><div class="tc-role">Premium seller · 4 years · engineer</div></div></div>
+        </div>
+        <div class="testi-cell">
+          <p class="tc-quote">I appreciate that VolRadar publishes their survivorship bias disclosure. It told me they actually understand quantitative methodology. I work in data science — when a tool shows me their limitations openly, I trust their stated advantages. That trust has held up over 18 months of daily use.</p>
+          <div class="tc-who"><div class="tc-init">MH</div><div><div class="tc-name">MEI H.</div><div class="tc-role">Data scientist · systematic premium seller</div></div></div>
+        </div>
+        <div class="testi-cell">
+          <p class="tc-quote">The CC Score completely replaced my previous covered call selection process. I was using premium yield as the primary sort. Adding the safety buffer and earnings proximity components added two meaningful risk dimensions I had been ignoring. The trades are more conservative but more consistent.</p>
+          <div class="tc-who"><div class="tc-init">VA</div><div><div class="tc-name">VICTOR A.</div><div class="tc-role">Income investor · covered calls</div></div></div>
+        </div>
+      </div>
+
+      <!-- ENTRY 8 -->
+      <section id="entry-8">
+        <div class="entry-head">
+          <span class="entry-num">08</span>
+          <div class="entry-label-block">
+            <div class="entry-cat">Free Tool Suite</div>
+            <h2 class="entry-title">ALL <span class="g">FREE TOOLS</span></h2>
+          </div>
+        </div>
+
+        <p>VolRadar's free tier provides access to a suite of twelve independently useful instruments. These are not artificially limited previews — they are full-function tools that would justify bookmarking the platform even without a subscription.</p>
+
+        <div class="tools-wrap">
+          <div class="tool-block"><div class="tb-num">01</div><div class="tb-name">IV RANK LOOKUP</div><div class="tb-desc">52-week implied vol percentile: (IV − 52w Low) / (52w High − 52w Low) × 100. Baseline filter before any premium analysis.</div></div>
+          <div class="tool-block"><div class="tb-num">02</div><div class="tb-name">EXPECTED MOVE CALC</div><div class="tb-desc">RV-based ±1σ price range: Price × RV × √(DTE/252). Strike selection anchor for any short-premium structure.</div></div>
+          <div class="tool-block"><div class="tb-num">03</div><div class="tb-name">DTE OPTIMIZER</div><div class="tb-desc">Per-ticker historical optimal expiration window. Challenges universal 45-DTE rules with ticker-specific evidence.</div></div>
+          <div class="tool-block"><div class="tb-num">04</div><div class="tb-name">INCOME CALCULATOR</div><div class="tb-desc">Projects annualized premium income from account size, strategy type, and average monthly credit. Reality-checks return expectations.</div></div>
+          <div class="tool-block"><div class="tb-num">05</div><div class="tb-name">OPTIONS PROFIT CALC</div><div class="tb-desc">Full P&L diagram with breakevens, max profit, max loss for any structure including iron condors and multi-leg spreads.</div></div>
+          <div class="tool-block"><div class="tb-num">06</div><div class="tb-name">WHEEL CALCULATOR</div><div class="tb-desc">Complete CSP-to-covered-call cycle modeler tracking premium income and cost basis reduction across multiple iterations.</div></div>
+          <div class="tool-block"><div class="tb-num">07</div><div class="tb-name">CC SCREENER</div><div class="tb-desc">7-factor CC Score applied to 500+ stocks daily. Full ranked list accessible on free tier. Best covered call candidates surfaced immediately.</div></div>
+          <div class="tool-block"><div class="tb-num">08</div><div class="tb-name">CC ETF SCREENER</div><div class="tb-desc">CC Score methodology applied to ETFs, including analysis of covered call ETF products themselves.</div></div>
+          <div class="tool-block"><div class="tb-num">09</div><div class="tb-name">HIGH IV STOCKS</div><div class="tb-desc">Daily-updated S&P 500 tickers above IV Rank threshold. The opening filter for any premium-selling candidate session.</div></div>
+          <div class="tool-block"><div class="tb-num">10</div><div class="tb-name">SAFE TO SELL</div><div class="tb-desc">Multi-filter list: earnings distance, liquidity, VRP positivity, IV edge must all clear simultaneously. Eliminates borderline candidates.</div></div>
+          <div class="tool-block"><div class="tb-num">11</div><div class="tb-name">BEST EARNINGS STOCKS</div><div class="tb-desc">Companies with historically strong post-earnings IV crush. Reference list for deliberate earnings premium plays.</div></div>
+          <div class="tool-block"><div class="tb-num">12</div><div class="tb-name">SECTORS + WEEKLY CC</div><div class="tb-desc">Sector-level VRP breakdown identifying concentration of premium opportunity. Weekly CC Ideas updated each Monday.</div></div>
+        </div>
+
+        <p>Additionally: the Glossary (~500 options terms, reviewed quarterly), the Learn Hub (structured educational content from IV basics through VRP methodology), and the AI Daily Market Brief (published by 9:25 AM ET, available to both free and Starter users).</p>
+      </section>
+
+      <!-- ENTRY 9 -->
+      <section id="entry-9">
+        <div class="entry-head">
+          <span class="entry-num">09</span>
+          <div class="entry-label-block">
+            <div class="entry-cat">Pricing Structure</div>
+            <h2 class="entry-title">TIERS AND <span class="g">VALUE</span></h2>
+          </div>
+        </div>
+
+        <div class="price-duel" aria-label="Pricing tiers">
+          <div class="pd-box">
+            <div class="pd-head">
+              <div class="pd-tier">// ENTRY TIER</div>
+              <div class="pd-name">FREE</div>
+            </div>
+            <div class="pd-body">
+              <span class="pd-price">$0<sub> / FOREVER · NO CARD</sub></span>
+              <ul class="pd-feats">
+                <li>Daily Weather Score + regime label</li>
+                <li>Top 5 ranked candidates with signal tiers</li>
+                <li>AI Market Brief by 9:25 AM ET</li>
+                <li>One full ticker deep-dive per day</li>
+                <li>Covered Call Screener — full list</li>
+                <li>All 12 calculators and screeners</li>
+                <li>Market Stress Monitor — complete access</li>
+                <li>Glossary · Learn Hub · Methodology docs</li>
+              </ul>
+              <a href="https://volradar.com" class="pd-btn" target="_blank" rel="noopener">ACCESS FREE TIER →</a>
+            </div>
+          </div>
+          <div class="pd-box hot">
+            <div class="pd-head">
+              <div class="pd-tier">// PROFESSIONAL TIER</div>
+              <div class="pd-name">STARTER</div>
+            </div>
+            <div class="pd-body">
+              <span class="pd-price">$15<sub> /MO · $150/YR (−17%)</sub></span>
+              <ul class="pd-feats">
+                <li>Everything in Free</li>
+                <li>Full Scanner — all 500+ tickers, sort &amp; filter</li>
+                <li>3 auto-ranked strategies with computed strikes &amp; P&L</li>
+                <li>Expected move: all DTE periods 1d–65d</li>
+                <li>Automatic earnings gates — blocks near reports</li>
+                <li>Daily watchlist email at 8:30 AM ET</li>
+                <li>Regime flip alert notifications</li>
+                <li>Per-ticker historical VRP trend data</li>
+                <li>DTE Optimizer across all 500+ tickers</li>
+              </ul>
+              <a href="https://volradar.com/pricing" class="pd-btn" target="_blank" rel="noopener">TRY 7 DAYS FREE →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="def-box green">
+          <div class="def-label">// Value Calculation</div>
+          <p>Starter costs $0.50/trading day. Direct ORATS API access starts above $200/month. The automatic earnings gate, by preventing even one inadvertent short-premium position near an announcement per quarter, typically generates avoided-loss value that exceeds twelve months of Starter fees. Payments processed by Paddle (PCI DSS); local VAT applied automatically. Free tier: no card, no expiry, no trial clock. Paid plans: 7-day free trial, cancel anytime.</p>
+        </div>
+      </section>
+
+      <!-- ENTRY 10 -->
+      <section id="entry-10">
+        <div class="entry-head">
+          <span class="entry-num">10</span>
+          <div class="entry-label-block">
+            <div class="entry-cat">Competitive Position</div>
+            <h2 class="entry-title">MARKET <span class="g">POSITION</span></h2>
+          </div>
+        </div>
+
+        <table class="dtbl" aria-label="Platform comparison">
+          <thead>
+            <tr><th>Feature</th><th>VolRadar</th><th>Broker Tools</th><th>ORATS Direct</th><th>Market Chameleon</th><th>Barchart</th></tr>
+          </thead>
+          <tbody>
+            <tr class="hi"><td>Daily regime verdict</td><td class="y">✓ UNIQUE</td><td class="n">—</td><td class="n">—</td><td class="n">—</td><td class="n">—</td></tr>
+            <tr><td>500+ ticker VRP ranking</td><td class="y">✓</td><td class="n">Rarely</td><td class="y">✓</td><td>Partial</td><td>Partial</td></tr>
+            <tr class="hi"><td>Auto strategies + strikes</td><td class="y">✓</td><td class="n">—</td><td class="n">—</td><td class="n">—</td><td class="n">—</td></tr>
+            <tr><td>Automatic earnings gating</td><td class="y">✓</td><td class="n">—</td><td class="n">—</td><td class="n">—</td><td class="n">—</td></tr>
+            <tr class="hi"><td>Mega-cap skew stress monitor</td><td class="y">✓</td><td class="n">—</td><td class="n">—</td><td class="n">—</td><td class="n">—</td></tr>
+            <tr><td>AI daily brief</td><td class="y">✓</td><td class="n">—</td><td class="n">—</td><td class="n">—</td><td class="n">—</td></tr>
+            <tr class="hi"><td>Full methodology disclosure</td><td class="y">✓ FULL</td><td>Black box</td><td class="y">✓</td><td>Partial</td><td>Partial</td></tr>
+            <tr><td>Free tier without card</td><td class="y">✓ GENEROUS</td><td>Acct. req.</td><td class="n">—</td><td>Limited</td><td>Limited</td></tr>
+            <tr class="hi"><td>Monthly cost (paid)</td><td class="g"><strong>$15</strong></td><td>$0 + acct</td><td>$200+</td><td>$20+</td><td>$25+</td></tr>
+            <tr><td>Real-time intraday data</td><td class="n">—</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td></tr>
+            <tr><td>Non-S&P 500 coverage</td><td class="n">—</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td></tr>
+          </tbody>
+        </table>
+
+        <p>VolRadar's structural moat is in the synthesis layer — features that require both institutional data quality AND a purpose-built workflow philosophy to build. The regime verdict, adaptive strategy generation, earnings gating, and Market Stress monitor are genuinely absent from competing platforms, not merely inferior versions. The gaps — EOD-only data, S&P 500 scope, no order routing — are clearly scoped limitations rather than failures.</p>
+      </section>
+
+      <!-- ENTRY 11 -->
+      <section id="entry-11">
+        <div class="entry-head">
+          <span class="entry-num">11</span>
+          <div class="entry-label-block">
+            <div class="entry-cat">Editorial Assessment</div>
+            <h2 class="entry-title">FINAL <span class="g">VERDICT</span></h2>
+          </div>
+        </div>
+
+        <p>After comprehensive analysis of <a href="https://volradar.com" target="_blank" rel="noopener"><strong>VolRadar</strong></a>'s methodology, data infrastructure, feature architecture, competitive positioning, and validation evidence, the conclusion is unambiguous for the target user: this is the most analytically rigorous, institutionally grounded, and cost-efficient daily analytics workflow available to retail premium sellers in 2026.</p>
+
+        <p>The Weather Score's five-factor composite has demonstrated a statistically significant, validated edge over single-indicator timing across 1,354 trading sessions. Its ORATS backbone delivers institutional data quality at retail pricing. Its earnings gate system addresses the most common source of outsized premium-selling losses. Its Market Stress Monitor provides independent macro tail-risk monitoring that complements rather than duplicates the daily regime signal. Its free tier is genuinely capable. Its Starter plan at $15/month is priced at a fraction of the value it delivers.</p>
+
+        <table class="rtbl" aria-label="Category ratings">
+          <thead><tr><th>Category</th><th>Score</th><th>Notes</th></tr></thead>
+          <tbody>
+            <tr><td>Data Quality</td><td>★★★★★ 5.0</td><td>ORATS institutional + CBOE; no proxies</td></tr>
+            <tr><td>Weather Score Methodology</td><td>★★★★½ 4.5</td><td>Validated, transparent, bias explicitly disclosed</td></tr>
+            <tr><td>Workflow Design</td><td>★★★★★ 5.0</td><td>Sequential, fast, purpose-built for premium sellers</td></tr>
+            <tr><td>Free Tier</td><td>★★★★★ 5.0</td><td>Best no-card free tier in the category</td></tr>
+            <tr><td>Starter Plan ROI</td><td>★★★★★ 5.0</td><td>Institutional data at $15/mo is exceptional value</td></tr>
+            <tr><td>Earnings Gate</td><td>★★★★★ 5.0</td><td>Auto-prevents most common premium-selling mistake</td></tr>
+            <tr><td>Market Stress Monitor</td><td>★★★★★ 5.0</td><td>Research-backed, 88 episodes, 2.18× lift, p&lt;0.001</td></tr>
+            <tr><td>Methodology Transparency</td><td>★★★★★ 5.0</td><td>Full formulas, bias notes, limitation disclosures</td></tr>
+            <tr><td>Coverage Scope</td><td>★★★★☆ 4.0</td><td>S&P 500 + EOD only — real but clearly stated limits</td></tr>
+            <tr><td><strong>OVERALL</strong></td><td><strong>★★★★★ 4.8/5</strong></td><td><strong>Highest recommendation for premium sellers</strong></td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- CTA -->
+      <div class="cta-wrap">
+        <span class="cta-tag">// FREE FOREVER · NO CARD · STARTER 7-DAY TRIAL</span>
+        <h3>ACCESS <em>VOLRADAR</em><br/>BEFORE TOMORROW'S OPEN</h3>
+        <p>The Weather Score updates after tonight's close. By 9:25 AM tomorrow you have a validated five-factor regime verdict, VRP-ranked candidates, Market Stress reading, and AI-written market brief — before your broker opens. Start on the free tier. No card. No expiry.</p>
+        <div class="cta-row">
+          <a href="https://volradar.com" class="cta-a" target="_blank" rel="noopener">START FREE ON VOLRADAR</a>
+          <a href="https://volradar.com/pricing" class="cta-b" target="_blank" rel="noopener">VIEW STARTER FEATURES</a>
+        </div>
+        <div class="cta-fn">// FREE · NO CARD · 7-DAY STARTER TRIAL · CANCEL ANYTIME · ORATS + CBOE INSTITUTIONAL DATA</div>
+      </div>
+
+      <!-- FAQ -->
+      <section id="faq-sec" style="padding-top:52px">
+        <div class="entry-head" style="margin-top:0">
+          <span class="entry-num">12</span>
+          <div class="entry-label-block">
+            <div class="entry-cat">Reference FAQ</div>
+            <h2 class="entry-title">COMMON <span class="g">QUESTIONS</span></h2>
+          </div>
+        </div>
+
+        <div class="faq-wrap">
+          <div class="faq-entry" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">How does the Weather Score handle a situation where the market is falling but implied vol has not yet spiked — the "calm before the storm" scenario?</span><span class="faq-icon">+</span></div>
+            <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div itemprop="text">This scenario specifically tests the value of the multi-factor approach over single-indicator timing. In a gradual decline without an implied vol spike, the VIX Regime factor alone might remain supportive — VIX at 19 reads as Favorable on a pure level-based rule. However, the Premium Edge factor (VRP breadth) often begins deteriorating earlier: as realized vol picks up in the underlying stocks from the decline, it starts closing the gap to implied vol on an increasing fraction of names, and the Premium Edge score declines even before VIX has responded. Simultaneously, the Volatility Trend factor — measuring whether 20-day RV remains below 30-day IV per ticker — will also start showing deterioration. This two-factor early warning tends to pull the composite score toward Selective before the single VIX-based rule would respond. VolRadar has published historical examples from gradual deterioration periods showing this early composite decline preceding the visible VIX response.</div></div>
+          </div>
+
+          <div class="faq-entry" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">Is there a way to use VolRadar specifically for index-level options (SPX, SPY) rather than individual stock options?</span><span class="faq-icon">+</span></div>
+            <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div itemprop="text">Yes, with some nuance. SPY is included in the scanner as an individual ticker and has a full per-ticker report including IV Rank, VRP readings, expected move calculations, and strategy specifications. SPX options analytics are not separately tracked, but SPY is a close proxy. The Weather Score's macro factors — VIX Regime and Term Structure, both CBOE-sourced — are directly relevant to index-level premium selling because they measure the S&P 500 volatility environment at the index level. The Premium Edge and Volatility Trend factors measure individual stock VRP breadth, which is relevant context for index options but not a direct signal for SPX/SPY positions specifically. In practice, traders running index-level premium strategies typically use VolRadar's macro signals (Weather Score, Market Stress Monitor) as their primary regime inputs and rely on SPY-specific ticker data from the scanner for individual position parameters.</div></div>
+          </div>
+
+          <div class="faq-entry" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">How should I interpret a Selective reading that is driven primarily by Earnings Safety suppression versus one driven by deteriorating VRP breadth?</span><span class="faq-icon">+</span></div>
+            <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div itemprop="text">These two Selective readings have very different trading implications, and the five-component decomposition view is specifically designed to help you distinguish them. A Selective reading driven primarily by Earnings Safety suppression — where the other four factors remain supportive — tells you that the underlying volatility environment is actually fine, but the calendar is problematic this week. The correct response is to narrow your candidate selection to names with earnings well outside the 14-day exclusion window, accept fewer setups than a typical Favorable week, and plan to normalize position cadence once the earnings cluster passes. A Selective reading driven by deteriorating VRP breadth — where Premium Edge has fallen into the 40s or below — tells you something more fundamental: the structural edge available across the index has genuinely narrowed. This requires more skepticism about any individual setup's VRP reading, because the market-wide signal suggests that what looks like positive VRP on a specific ticker may not persist. The correct response here is to apply stricter VRP thresholds, prefer defined-risk structures over naked positions, and size smaller regardless of individual setup quality.</div></div>
+          </div>
+
+          <div class="faq-entry" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">Does VolRadar offer any tools for managing existing positions, or is it exclusively focused on entry decisions?</span><span class="faq-icon">+</span></div>
+            <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div itemprop="text">VolRadar is primarily designed for entry decision support rather than active position management, but several features have indirect management utility. The daily Weather Score and Market Stress Monitor provide ongoing regime context that informs management decisions — if you are holding a short strangle entered in a Favorable regime and the score drops to Selective or the Market Stress Monitor enters Elevated, that is relevant context for tightening your management threshold or closing early at a smaller profit. The per-ticker reports include expected move data for multiple DTE periods, which is directly useful for evaluating whether existing positions remain within acceptable risk parameters as they age toward expiration. The platform does not provide direct portfolio P&L tracking, real-time Greek monitoring, or position-specific alerts — for those functions, your broker platform remains the appropriate tool. The Starter watchlist email provides daily regime and candidate updates that passive position holders can use for context without logging in to the full platform every morning.</div></div>
+          </div>
+
+          <div class="faq-entry" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">What is the process for getting started on the free tier, and what should I prioritize in the first week?</span><span class="faq-icon">+</span></div>
+            <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div itemprop="text">Getting started: visit volradar.com and create an account with an email address only. No credit card required. No trial countdown begins. The free tier never expires. On day one, locate the Weather Score on the homepage and read the component breakdown below it — not just the composite number. Spend the first three to five trading days in observation mode: check the score each morning, note the regime, note which factor is the primary driver, and record your independent assessment of how the market feels that day. The comparison between your intuition and the score is informative even before you change any trading behavior. In parallel, run the IV Rank Lookup and Expected Move Calculator on your current watchlist names to establish baseline readings. Check the Covered Call Screener once to see how your names rank in the full universe on the CC Score. Open the Market Stress Monitor daily alongside the Weather Score to build familiarity with how the two signals interact. By the end of the first week, you will have a concrete sense of whether the platform's framework adds interpretive structure to what you were already observing — and whether the scoring methodology reflects market conditions in ways that align with your own experience. Most active premium sellers find within two weeks that the Weather Score has already changed at least one entry decision in a meaningful way.</div></div>
+          </div>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!-- SIDE COLUMN -->
+  <aside class="side-col" aria-label="Sidebar">
+    <div class="sc-card">
+      <div class="sc-card-top">// PLATFORM VERDICT</div>
+      <span class="sc-big">4.8</span>
+      <span class="sc-stars">★★★★★</span>
+      <span class="sc-count">429 VERIFIED · ALPHASIGNALLAB.IO</span>
+      <a href="https://volradar.com" class="sc-btn" target="_blank" rel="noopener">VISIT VOLRADAR</a>
+      <a href="https://volradar.com/pricing" class="sc-btn out" target="_blank" rel="noopener">VIEW PRICING</a>
+    </div>
+
+    <div class="sc-card">
+      <div class="sc-card-top">// QUICK FACTS</div>
+      <div class="sc-row"><span class="sk">PLATFORM</span><span class="sv">volradar.com</span></div>
+      <div class="sc-row"><span class="sk">DATA</span><span class="sv">ORATS + CBOE</span></div>
+      <div class="sc-row"><span class="sk">UNIVERSE</span><span class="sv">500+ S&P 500</span></div>
+      <div class="sc-row"><span class="sk">REFRESH</span><span class="sv">EOD · 6PM ET</span></div>
+      <div class="sc-row"><span class="sk">FREE TIER</span><span class="sv">YES · NO CARD</span></div>
+      <div class="sc-row"><span class="sk">STARTER</span><span class="sv">$15/MO</span></div>
+      <div class="sc-row"><span class="sk">ANNUAL</span><span class="sv">$150/YR (−17%)</span></div>
+      <div class="sc-row"><span class="sk">TRIAL</span><span class="sv">7 DAYS FREE</span></div>
+    </div>
+
+    <div class="sc-card">
+      <div class="sc-card-top">// LIVE WEATHER</div>
+      <div style="text-align:center;padding:10px 0">
+        <span style="font-family:'Bebas Neue',sans-serif;font-size:3.5rem;letter-spacing:.04em;color:var(--gold);display:block;line-height:1">79.6</span>
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;color:var(--green2);display:block;margin:5px 0 3px">● FAVORABLE</span>
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:.58rem;color:var(--dim)">AS OF MAY 21, 2026</span>
+      </div>
+      <a href="https://volradar.com/weather" class="sc-btn out" target="_blank" rel="noopener">FULL ANALYSIS →</a>
+    </div>
+
+    <div class="sc-card">
+      <div class="sc-card-top">// POPULAR ANALYSIS</div>
+      <ul class="sc-links">
+        <li><a href="https://volradar.com/ticker/SPY/premium-selling" target="_blank" rel="noopener">SPY Premium Selling</a></li>
+        <li><a href="https://volradar.com/ticker/AAPL/iv-analysis" target="_blank" rel="noopener">AAPL IV Analysis</a></li>
+        <li><a href="https://volradar.com/ticker/TSLA/covered-call" target="_blank" rel="noopener">TSLA Covered Call</a></li>
+        <li><a href="https://volradar.com/ticker/NVDA/walls" target="_blank" rel="noopener">NVDA Gamma Walls</a></li>
+        <li><a href="https://volradar.com/ticker/QQQ/vrp" target="_blank" rel="noopener">QQQ VRP Analysis</a></li>
+        <li><a href="https://volradar.com/scanner" target="_blank" rel="noopener">FULL SCANNER →</a></li>
+      </ul>
+    </div>
+  </aside>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-inner">
+    <div>
+      <div class="foot-name">ALPHASIGNALLAB</div>
+      <div class="foot-sub">// QUANTITATIVE OPTIONS ANALYTICS RESEARCH · EST. 2022</div>
+    </div>
+    <nav class="foot-links" aria-label="Footer links">
+      <a href="#">HOME</a>
+      <a href="#">REFERENCE GUIDES</a>
+      <a href="#">PLATFORM ANALYSIS</a>
+      <a href="#">OPTIONS MODELS</a>
+      <a href="#">DISCLAIMER</a>
+      <a href="#">PRIVACY</a>
+      <a href="https://volradar.com" target="_blank" rel="noopener">VOLRADAR.COM ↗</a>
+    </nav>
+  </div>
+  <div class="foot-disc">// DISCLAIMER: This reference guide is published for educational purposes only. Nothing herein constitutes financial advice, investment recommendations, or solicitation to trade securities. Options trading involves substantial risk of loss. Alpha Signal Lab may hold a commercial affiliate relationship with VolRadar. All platform data, statistics, and pricing verified from volradar.com in May 2026; subject to change. Past performance does not guarantee future results. Consult a licensed financial professional before making investment decisions.</div>
+</footer>
+
+<script>
+  const rp = document.getElementById('rp');
+  const bt = document.getElementById('bt');
+  window.addEventListener('scroll', () => {
+    rp.style.width = Math.min(window.scrollY / (document.body.scrollHeight - window.innerHeight) * 100, 100) + '%';
+    bt.classList.toggle('on', window.scrollY > 500);
+  }, {passive:true});
+  bt.addEventListener('click', () => window.scrollTo({top:0,behavior:'smooth'}));
+
+  document.querySelectorAll('.faq-q').forEach(q => {
+    q.addEventListener('click', () => {
+      const it = q.closest('.faq-entry');
+      const open = it.classList.contains('open');
+      document.querySelectorAll('.faq-entry.open').forEach(i => { i.classList.remove('open'); i.querySelector('.faq-q').setAttribute('aria-expanded','false'); });
+      if (!open) { it.classList.add('open'); q.setAttribute('aria-expanded','true'); }
+    });
+    q.addEventListener('keydown', e => { if(e.key==='Enter'||e.key===' '){e.preventDefault();q.click();} });
+  });
+
+  // Animate bars on scroll
+  [...document.querySelectorAll('.ro-fill'), ...document.querySelectorAll('.fp-fill')].forEach(bar => {
+    const w = bar.style.width; bar.style.width = '0%';
+    const obs = new IntersectionObserver(([e]) => {
+      if (e.isIntersecting) { setTimeout(()=>{ bar.style.width = w; },100); obs.disconnect(); }
+    }, {threshold:.4});
+    obs.observe(bar);
+  });
+</script>
 </body>
-
 </html>
